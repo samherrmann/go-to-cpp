@@ -1,0 +1,10 @@
+%module simplelib
+
+// See http://www.swig.org/Doc1.3/Library.html#Library_stl_cpp_library
+%include "std_string.i"
+
+%{
+    #include "simplelib.h"
+%}
+
+%include "simplelib.h"
